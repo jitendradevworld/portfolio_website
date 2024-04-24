@@ -1,7 +1,66 @@
-:root{
-    --primary : #3DCFD3;
-    --dark : #3DCFD3;
-    --pure : #3DCFD3;
-    --ternary : #3DCFD3;
-    --light : #3DCFD3;
+@import "utilities.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+:root {
+  --primary: #3dcfd3;
+  --dark: #161616;
+  --pure: #ffffff;
+  --ternary: #898989;
+  --light: #f2f2f2;
+  --secondary: #070606;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-flow-smotthing: antialiased;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background: var(--dark);
+}
+.container {
+  max-width: 1152px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+header nav .left a {
+  color: var(--pure);
+  text-decoration: none;
+  margin-right: 2rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+header nav .left a:hover {
+  color: var(--primary);
+}
+
+header nav {
+  padding: 2rem 0;
+}
+
+header nav .branding {
+  margin-right: 3rem;
+}
+.btn {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase; 
+  transition: all .3s ease;
+}
+.btn-primary {
+  background: var(--primary);
+  color: var(--secondary);
+}
+.btn-primary:hover {
+  background: transparent;
+  border-color: var(--primary);
+  color: var(--primary);
 }
