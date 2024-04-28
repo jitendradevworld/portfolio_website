@@ -17,7 +17,7 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  height: 8000px;
+  
 }
 header {
   background: var(--dark);
@@ -423,4 +423,25 @@ section.contact .input-wrap-2 textarea:focus,section.contact input:focus{
 }
 section.contact .btn-wrapper{
 text-align: center;
+}
+
+footer{
+  background: var(--dark);
+  text-align: center;
+  padding: 5rem 0;
+}
+footer .footer-logo{
+  width: 150px;
+  margin-bottom: 3rem;
+}
+footer .footer-socials a{
+  margin-right: 1rem;
+
+}
+footer .footer-socials {
+  margin-bottom: 3rem;
+  margin-right: -1rem;
+}
+footer .copyright{
+  color: var(--ternary);
 }
