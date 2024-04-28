@@ -309,6 +309,8 @@ section.work .card-wrapper .card img{
 section.work .card-wrapper .card:hover .overlay{
      opacity: 1;
 }
+
+
 section.blog{
   background: var(--dark);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100%);
@@ -362,4 +364,3 @@ section.blog .card-wrapper .card .card-content p{
 section.blog .card-wrapper .card .card-content a.read-more{
 font-size: 0.8rem;
 }
-
